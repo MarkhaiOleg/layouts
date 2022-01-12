@@ -1,0 +1,167 @@
+body{
+width: 1600px;
+padding: 0;
+margin: 0;
+font-family: 'Anton',sans-serif;
+color: 000;
+font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li {
+display: block;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    }
+
+.header{
+    background: url(img/header-bg.jpg) no-repeat center top / cover;
+    height: 900px;
+    padding-top: 57px;
+    
+}
+
+.header a {
+color: #fff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+  
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.menu{
+    margin-left: 70px;
+    display: flex;
+}
+
+.menu li{
+    margin-right: 40px;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.tel{
+    margin-left: 420px;
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+   
+    
+}
+
+.offer{
+margin-top: 215px;
+padding-left: 100px;
+width: 1165px;
+height: 260px;
+color: #fff;
+
+}
+
+.offer p{
+margin-bottom: 0px;
+font-size: 30px;
+line-height: 45px;
+}
+
+.offer h1{
+    font-size: 100px;
+    line-height: 150xp;
+}
+
+.offer button{
+    width: 240px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 26px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.offer button:hover{
+    background-color:#fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.about{
+height: 750px;
+}
+
+.about h2{
+    margin-top: 115px;
+    padding-left: 100px;
+    font-size: 50px;
+    line-height: 75px;
+    
+}
+
+.text {
+    display: flex;
+    margin-top: 60px;
+    padding-left: 60px;
+}
+
+.text h3 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.text p {
+    height: 150px;
+    width: 565px;
+    margin-left: 40px;
+    font-family: open Sans;
+    
+}
+
+.text p:last-child {
+    height: 195px;
+    width: 565px;
+}
+
+.picture {
+display: flex;
+padding-left: 100px;
+}
+
+.picture img{
+    margin-right: 30px;
+}
+
+footer {
+    height: 50px;
+}
+
+
+.footer-info {
+display: flex;
+margin-top: 50px;
+font-size: 14px;
+font-family: open Sans;
+padding-left: 100px;
+}
+
+.footer-info p {
+    padding-right: 80px;
+}
